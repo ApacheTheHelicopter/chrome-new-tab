@@ -2,7 +2,7 @@
     "manifest_version": 2,
 
     "name": "Modern new tab",
-    "description": "Can´t be that hard to make a decent new tab page, is it?"^,
+    "description": "Can´t be that hard to make a decent new tab page, is it?",
     "version": "0.1",
     
     "chrome_url-override" : {

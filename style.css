@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+.backgroundImage {
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1605309367703-fc6e040816bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ContentClass {
+    overflow: hidden;
+    position: absolute;
+}
+
+.welcomeText {
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    top: 30%;
+}
