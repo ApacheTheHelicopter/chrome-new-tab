@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "name": "Modern new tab",
+    "description": "Can´t be that hard to make a decent new tab page, is it?"^,
+    "version": "0.1",
+    
+    "chrome_url-override" : {
+        "newtab": "newtab.html"
+    },
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+
+    "permission" :[ 
+        "tabs"
+    ],
+
+    "background" : {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+
+}
