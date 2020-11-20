@@ -7,12 +7,29 @@
         <title>Modern new tab</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width ,initial-scale=1">
-
+        <link rel="stylesheet" href="https://use.typekit.net/zby7qry.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d4164139c2.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
     </head>
     <body>
 
-            <h1 class="welcomeText">Endlich mal ein cleaner Tab</h1>
+            <span class="settings_wrapper">
+                <i class="fas fa-cog"></i>
+            </span>
+
+            <div class="search_wrap">
+                <div class="search_bar">
+                    <i class="fab fa-google"></i>
+                    <form action="https://www.google.com/search">
+                        <input class="search_term font_rubik_bold" type="text" name="q" placeholder="Suchen..">
+                        <button type="submit" value="search" class="search_button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
             <div class="blur"></div>
             <video id="videoMedia" class="backgroundMedia" autoplay muted loop> 
                 <source src="content/japan.mp4" type="video/mp4">
