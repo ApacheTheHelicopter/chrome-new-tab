@@ -13,5 +13,5 @@ video.appendChild(source);
 video.play();
 
 function changeVideo() {
-    source.setAttribute('src', 'content/')
+    source.setAttribute('src', 'content/sunny_road.mp4');
 }
