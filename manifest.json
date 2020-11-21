@@ -3,7 +3,7 @@
     "name": "Modern new tab",
     "description": "Can´t be that hard to make a decent new tab page, is it?",
     "version": "1.0",
-    
+
     "chrome_url_overrides" : {
         "newtab": "newtab.html"
     },
