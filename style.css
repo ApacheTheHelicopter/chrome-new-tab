@@ -52,6 +52,9 @@ html, body {
     position: absolute;
     margin-left: 50%;
     margin-top: 25%;
+    top: -250px;
+    font-size: 40px;
+    left: -50px;
 }
 
 .fa-google {
